@@ -62,7 +62,7 @@ export default function DisplayPage() {
             <Text>Price: ${item.price}</Text>
             <Text>Brand: {item.brand}</Text>
             <Text>Type: {item.type}</Text>
-            <Button title='Redigera' onPress={andra}></Button>
+            <Button title='Redigera'></Button>
             <Button title='Radera'></Button>
           </View>
         )}
@@ -72,8 +72,4 @@ export default function DisplayPage() {
   );
 }
 
-const andra = (e)=> {
-    return(
-        console.log(e)
-    )
-};
+
